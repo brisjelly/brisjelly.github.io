@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+
+    color: #464e74;
+    background: url(img/jelly2.jpg);
+    background-size: cover;
+}
+
+div#container {
+    margin: 0 auto;
+    max-width: 40rem;
+    background: #f2f2f2;
+}
+
+main {
+    padding: 0 2rem 2rem 2rem;
+}
+
+div.bit {
+    margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 640px) {
+    main {
+        max-width: 76rem;
+        display: grid;
+        grid-template-columns: 46% 46%;
+        grid-column-gap: 8%;
+    }
+
+    div.bit {
+        margin-bottom: 0;
+    }
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    background: linear-gradient(-46deg, #3023AE 0%, #C86DD7 100%);
+    text-align: center;
+
+    padding-bottom: 4rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+}
+
+header h1 {
+    color: #fff; 
+    text-shadow: #213597 -8px 8px 0;
+}
+
+header p {
+    color: #FDB9EE;
+}
+header p a,
+header p a:visited {
+    color: #F4E0C5;
+}
+header p a:hover {
+    text-shadow: -2px 2px rgba(0,0,0,0.4);
+}
+header .lowlight {
+    opacity: 0.6;
+}
+
+/* Content */
+h2 {
+    color: #412BB2;
+    font-weight: 400;
+}
+
+/* Misc */
+.term {
+    font-family: monospace;
+    background: #eee;
+    padding: 0 0.5rem;
+}

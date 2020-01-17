@@ -39,8 +39,11 @@ div.bit::after {
 }
 
 @media screen and (min-width: 640px) {
+    div#container {
+        max-width: 60rem;
+    }
+
     main {
-        max-width: 76rem;
         display: grid;
         grid-template-columns: 46% 46%;
         grid-column-gap: 8%;
@@ -58,7 +61,7 @@ div.bit::after {
 /* Header */
 header {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background: #3023ae;
     background: linear-gradient(90deg, #2d219a 0, #3023ae 2%, #c86dd7 100%);
     text-align: center;
@@ -68,14 +71,38 @@ header {
 }
 
 header h1 {
+    order: 2;
     color: #fff; 
     text-shadow: #21359775 -8px 8px 0;
     font-size: 3rem;
 }
 
 header p {
-    color: #FDB9EE;
+    order: 1;
+    color: #fdb9ee;
 }
+
+header div {
+    order: 3;
+}
+
+header object {
+    width: 100px;
+    float: left;
+    margin-top: -9rem;
+    margin-left: 2rem;
+
+    transform: skew(-12deg, 3deg);
+    animation: wiggly 4s infinite;
+}
+
+@keyframes wiggly {
+    0% {transform: skew(-12deg, 3deg);}
+    50% {transform: skew(14deg, -14deg);}
+    100% {transform: skew(-12deg, 3deg);}
+}
+/* individual SVG element anim is in SVG file */
+
 header p a,
 header p a:visited {
     color: #F4E0C5;
@@ -112,3 +139,11 @@ main a:hover {
     color: #eba564;
 }
 
+.footer-creature {
+    text-align: right;
+}
+.footer-creature img {
+    margin-top: 3rem;
+    width: 3rem;
+    height: auto;
+}

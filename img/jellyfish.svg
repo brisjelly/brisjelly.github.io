@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="452px" height="475px" viewBox="0 0 452 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <style type="text/css"><![CDATA[
+            
+            /* Object wobble is in main site CSS */
+            
+            @keyframes fader1 {
+                0% {opacity: 1;}
+                50% {opacity: 0.4;}
+                100% {opacity: 1;}
+            }
+            @keyframes fader2 {
+                0% {opacity: 0.4;}
+                50% {opacity: 1;}
+                100% {opacity: 0.4;}
+            }
+
+            path#face {
+                animation: fader1 3s infinite;
+            }
+
+            path#leg1 {
+                animation: fader1 2s infinite;
+            }
+            path#leg2 {
+                animation: fader2 2s  infinite;
+            }
+            path#leg3 {
+                animation: fader1 4s  infinite;
+            }
+            path#leg4 {
+                animation: fader2 1.5s  infinite;
+            }
+
+        ]]></style>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#78CAF5" offset="0%"></stop>
+            <stop stop-color="#7DE9EF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-2">
+            <stop stop-color="#8DC3FD" offset="0%"></stop>
+            <stop stop-color="#4984E8" offset="86.761651%"></stop>
+            <stop stop-color="#3F7AE5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F6CC71" offset="0%"></stop>
+            <stop stop-color="#8594DC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M187,172 C192.703775,115.910569 240.08443,72 297.5,72 C354.91557,72 402.296225,115.910569 408,172 L187,172 Z" id="face" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(297.500000, 122.000000) rotate(37.000000) translate(-297.500000, -122.000000) "></path>
+        <path d="M155,115.5 L155,323 C155,341.2 140.2,356 122,356 C103.8,356 89,341.2 89,323 L89,288.5 C89,282.7 93.7,278 99.5,278 C105.3,278 110,282.7 110,288.5 L110,323 C110,329.62 115.38,335 122,335 C128.62,335 134,329.62 134,323 L134,115.5 C134,109.7 138.7,105 144.5,105 C150.3,105 155,109.7 155,115.5 Z" id="leg1" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(122.000000, 230.500000) rotate(37.000000) translate(-122.000000, -230.500000) "></path>
+        <path d="M276,379.5 L276,414 C276,432.2 261.2,447 243,447 C224.8,447 210,432.2 210,414 L210,206.5 C210,200.7 214.7,196 220.5,196 C226.3,196 231,200.7 231,206.5 L231,414 C231,420.62 236.38,426 243,426 C249.62,426 255,420.62 255,414 L255,379.5 C255,373.7 259.7,369 265.5,369 C271.3,369 276,373.7 276,379.5 Z" id="leg4" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(243.000000, 321.500000) rotate(37.000000) translate(-243.000000, -321.500000) "></path>
+        <path d="M152,185.5 L152,415.5 C152,421.3 147.3,426 141.5,426 C135.7,426 131,421.3 131,415.5 L131,185.5 C131,179.7 135.7,175 141.5,175 C147.3,175 152,179.7 152,185.5 Z" id="leg2" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(141.500000, 300.500000) rotate(37.000000) translate(-141.500000, -300.500000) "></path>
+        <path d="M180,206.5 L180,436.5 C180,442.3 175.3,447 169.5,447 C163.7,447 159,442.3 159,436.5 L159,206.5 C159,200.7 163.7,196 169.5,196 C175.3,196 180,200.7 180,206.5 Z" id="leg3" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(169.500000, 321.500000) rotate(37.000000) translate(-169.500000, -321.500000) "></path>
+        <path d="M129,217.102 C129,223.821 137.418913,226.91 141.747638,221.763 C145.354741,217.475 148.698252,212.871 155.879385,212.871 C169.318576,212.871 169.318576,229 182.757767,229 C196.194954,229 196.194954,212.871 209.633143,212.871 C223.071332,212.871 223.071332,229 236.509521,229 C249.946708,229 249.946708,212.871 263.383895,212.871 C276.821082,212.871 276.821082,229 290.258269,229 C303.693451,229 303.693451,212.871 317.129635,212.871 C324.304754,212.871 327.647263,217.471 331.25136,221.758 C335.579082,226.906 344,223.817 344,217.097 L344,179 L129,179 L129,217.102 Z" id="skirt" fill-opacity="0.859827899" fill="#FFFFFF" fill-rule="nonzero" transform="translate(236.500000, 204.000000) rotate(37.000000) translate(-236.500000, -204.000000) "></path>
+        <path d="M434.840806,198 L162.159194,198 C153.838855,198 147.232852,190.855 148.071996,182.589 C155.802531,106.433 220.201294,47 298.5,47 C376.798706,47 441.197469,106.433 448.928004,182.589 C449.767148,190.855 443.161145,198 434.840806,198 Z M162.024009,184 L434.975991,184 C427.93139,115.01 369.41264,61 298.5,61 C227.58736,61 169.06861,115.01 162.024009,184 Z" id="helmet" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(298.500000, 122.500000) rotate(37.000000) translate(-298.500000, -122.500000) "></path>
+    </g>
+</svg>

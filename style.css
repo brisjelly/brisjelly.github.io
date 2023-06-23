@@ -89,7 +89,7 @@ header div {
 header object {
     width: 100px;
     float: left;
-    margin-top: -9rem;
+    margin-top: -7rem;
     margin-left: 2rem;
 
     transform: skew(-12deg, 3deg);
